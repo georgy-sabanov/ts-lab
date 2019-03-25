@@ -28,7 +28,7 @@ const person1: Person = { name: "Georgy", age: 31};
 
 /** extending */
 interface Dude extends Person {
-
+    favoriteDrink: string;
 }
 
 /** Function types */
@@ -39,3 +39,6 @@ const isAwesome: Lefunc = (person) => {
     return person.name === "Georgy";
 }
 
+/** Spread */
+const person3: Person = { name: "The Dude", age: 40, occupation: "unemployed" };
+const theDude: Dude = { favoriteDrink: "White Russian", ...person3 };
