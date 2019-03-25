@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "alwaysStrict": true,
+        "module": "commonjs",            
+        "noImplicitReturns": true,
+        "outDir": "build",        
+        "target": "esnext",
+        //"target": "es5",
+        //"sourceMap": true,
+        //"noEmitHelpers": true
+    },
+    "files": [
+        "src/index.ts"
+    ]
+}

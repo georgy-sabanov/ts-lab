@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    // override tslint-react rules here
+    "quotemark": [true, "double", "avoid-escape", "avoid-template"],
+    "jsx-wrap-multiline": false,
+    "no-implicit-dependencies": [
+      true,
+      "dev"
+    ]
+  }
+}
