@@ -8,7 +8,7 @@ interface IClassComponentProps {
 class ClassComponent extends React.Component<IClassComponentProps> {
     public render() {
         return <span>
-            IsLoaded: {this.props.isLoaded}<br />
+            IsLoaded: { this.props.isLoaded?"true":"false" } <br />
             { this.props.someNumber && "SomeNumber:" + this.props.someNumber }
         </span>
     }
